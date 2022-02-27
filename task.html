@@ -1,53 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      
-      <meta charset="UTF-8">
-      <meta name="viewport"  ,initial-scale=1.0 >
-      <link rel="stylesheet" href="task.css">
-    <title>TASK </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" ,initial-scale="1.0" />
+    <link rel="stylesheet" href="task.css" />
+    <title>TASK</title>
   </head>
   <body>
     <div class="container">
-        <div class="first">
-    <h1>  Remit  </h1><br><br><br>
-    <h2> Welcome </h2>
-    <p>  Sign in by entering the information below  </p><br><br>
-      <div class="wrap">  
-        <div class="in">
-             
-    <label  > Email Address</label>
-    <input type="email" id="email" placeholder="username@gmail.com" required ><br><br>
-    
-    <label  > Password</label>
-    <input type="password" id="pass" placeholder="Enter the password"  required><br><br>
-</div>
-</div> 
- <div class="lab">
-<br><br><br><br><br><br>
-    <input type="checkbox" id="rem" name="rem" value="rem-me">
-    <label style=" position: relative; right: 42px;"> Remember Me</label>
-    <input type="radio" id="for-pass" name="for-pass" value="pass">
-    <label style=" position: relative; left: 40px;">Forgotten password</label><br><br><br>
-</div>
-    <input  type="button" id="con" value="Continue"><br><br>
+      <div class="left">
+        <section class="logo"><h1>Remit</h1></section>
 
-    <p> Don't have any account? Create one here </p>
+        <section class="pageInfo">
+          <h2 class="title">Welcome!</h2>
+          <p class="subtitle">Sign in by entering the information below</p>
+        </section>
 
-     </div>
-    
-        <div class="second">
-       <img src="img/pa.jpg" alt="Image"/>
+        <section class="loginForm">
+          <form>
+            <div class="emailAddress inputGroup formRow">
+              <input
+                class="inputField"
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+
+            <div class="password inputGroup formRow">
+              <input
+                class="inputField"
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+
+            <div class="conditions formRow">
+              <div class="rememberMe">
+                <input type="checkbox" id="remember" name="remember" value="remember-me" />
+                <label for="remember">Remember Me</label>
+              </div>
+
+              <div class="forgotPassword">
+                <a href="https://www.google.com">Forgotten password</a>
+              </div>
+            </div>
+
+            <div class="submitButton formRow">
+              <input class="buttonField" type="submit" id="Continue" value="Continue" />
+            </div>
+          </form>
+        </section>
+
+        <section class="signUp">
+          <p>Don't have any account? Create one <a href="https://www.google.com">here</a>.</p>
+        </section>
+      </div>
+
+      <div class="right">
+        <img src="imgs/pa.jpg" alt="Al Aqsa Mosque" />
+      </div>
     </div>
-</div>
   </body>
 </html>
-
-<!--
-      
-    .container .second >img{
-    width: 759px ;
-
-    height:700px;
-    
-  }-->
