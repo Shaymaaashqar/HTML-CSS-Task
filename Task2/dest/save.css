@@ -4,11 +4,14 @@
   padding-bottom: 5%;
   justify-content: center;
 }
-.SaveButton .sa-ve, .SaveButton .de-lete {
+.SaveButton .sa-ve,
+.SaveButton .de-lete {
   display: flex;
   padding-left: 20px;
 }
-.SaveButton .cancel, .SaveButton .save {
+.SaveButton .cancel,
+.SaveButton .save {
+  border-radius: 5%;
   height: 40px;
   width: 100px;
   cursor: pointer;

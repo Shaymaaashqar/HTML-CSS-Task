@@ -87,6 +87,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: start;
+  align-items: center;
 }
 .container .box-border .findMembers .press .user .left {
   width: 50%;
@@ -111,13 +112,20 @@ body {
 .container .box-border .findMembers .press .user .right .fa {
   font-size: x-large;
 }
-.container .box-border .findMembers .press .u1 .right .fa, .container .box-border .findMembers .press .u3 .right .fa, .container .box-border .findMembers .press .u5 .right .fa {
+.container .box-border .findMembers .press .u1 .right .fa,
+.container .box-border .findMembers .press .u3 .right .fa,
+.container .box-border .findMembers .press .u5 .right .fa {
   color: #a0b1a0;
 }
-.container .box-border .findMembers .press .u1 .left, .container .box-border .findMembers .press .u3 .left, .container .box-border .findMembers .press .u5 .left {
+.container .box-border .findMembers .press .u1 .left,
+.container .box-border .findMembers .press .u3 .left,
+.container .box-border .findMembers .press .u5 .left {
   color: #a0b1a0;
 }
-.container .box-border .findMembers .press .u2 .right .fa, .container .box-border .findMembers .press .u4 .right .fa, .container .box-border .findMembers .press .u6 .right .fa, .container .box-border .findMembers .press .u7 .right .fa {
+.container .box-border .findMembers .press .u2 .right .fa,
+.container .box-border .findMembers .press .u4 .right .fa,
+.container .box-border .findMembers .press .u6 .right .fa,
+.container .box-border .findMembers .press .u7 .right .fa {
   color: #448a44;
 }
 .container .box-border .SaveButton {
@@ -126,11 +134,14 @@ body {
   padding-bottom: 5%;
   justify-content: center;
 }
-.container .box-border .SaveButton .sa-ve, .container .box-border .SaveButton .de-lete {
+.container .box-border .SaveButton .sa-ve,
+.container .box-border .SaveButton .de-lete {
   display: flex;
   padding-left: 20px;
 }
-.container .box-border .SaveButton .cancel, .container .box-border .SaveButton .save {
+.container .box-border .SaveButton .cancel,
+.container .box-border .SaveButton .save {
+  border-radius: 5%;
   height: 40px;
   width: 100px;
   cursor: pointer;
